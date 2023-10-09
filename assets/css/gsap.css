@@ -1,0 +1,13 @@
+.square {
+
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    animation: squareMove 2.25s;
+    padding-bottom: 100px;
+  }
+
+  @keyframes squareMove {
+    from {top: -500px;}
+    to {top: 70px;}
+  }
